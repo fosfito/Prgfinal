@@ -1,39 +1,39 @@
 //6 Cuentas con datos
 
-cuenta1 = {
+const cuenta1 = {
     tipo: "corriente", //"ahorro"
     importe: 200,
     tipomodena: "Peso",
     plazofijo: [{estado:"Activo",importe:100,fechaCreacion:"2015-01-01",plazo:30,}],
 }
 
-cuenta2 = {
+const cuenta2 = {
     tipo: "cahorro", //"ahorro"
     importe: 23000,
     tipomodena: "Peso",
     plazofijo: [{estado:"Activo",importe:100,fechaCreacion:"2020-01-01",plazo:30,}],
 }
-cuenta3 = {
+const cuenta3 = {
     tipo: "ahorro", //"ahorro"
     importe: 200,
     tipomodena: "dolar",
     plazofijo: [{estado:"Activo",importe:100,fechaCreacion:"2023-01-01",plazo:30,}],
 }
 
-cuenta4 = {
+const cuenta4 = {
     tipo: "corriente", //"ahorro"
     importe: 200,
     tipomodena: "Peso",
     plazofijo: [{estado:"inactivo",importe:100,fechaCreacion:"2019-01-01",plazo:30,}],
 }
-cuenta5 = {
+const cuenta5 = {
     tipo: "corriente", //"ahorro"
     importe: 200,
     tipomodena: "Peso",
     plazofijo: [{estado:"Activo",importe:100,fechaCreacion:"2020-01-01",plazo:30,}],
 }
 
-cuenta6 = {
+const cuenta6 = {
     tipo: "corriente", //"ahorro"
     importe: 200,
     tipomodena: "Peso",
