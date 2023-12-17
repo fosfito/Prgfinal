@@ -1,5 +1,6 @@
 import {cuenta} from "./01cuentas.js";
 
-console.log(cuenta);
+console.log("hola");
+console.log(cuenta[1].tipo);
 
 
