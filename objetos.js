@@ -18,7 +18,7 @@ const persona2 = {
     nombre: "Juan",
     apellido: "Toloza",
     edad: 85,
-    hijos: ["Maria", "Nicolas"]
+    hijos: ["Maria", "Nicolas", "Julio"]
 }
 
 const personas = [ persona1, persona2 ];
