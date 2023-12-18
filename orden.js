@@ -1,6 +1,5 @@
 
-const cuenta=[cuenta1, cuenta2, cuenta3, cuenta4, cuenta5, cuenta6];
-const array=[6,7,3,9,6,2];
+const array=[155,6,7,3,9,6,2];
 //BURBUJEO CASERO CON WHILE (ESTABA INSPIRADO)
 
 function ordenar(vector)
@@ -31,5 +30,5 @@ return(array)
     
 }
 
-console.log(ordenar(cuenta));
+console.log(ordenar(array));
 
