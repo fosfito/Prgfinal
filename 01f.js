@@ -45,15 +45,14 @@ const cuentas=[cuenta1, cuenta2, cuenta3, cuenta4, cuenta5, cuenta6];
 // fin de datos
 //PROGRAMA
 
-function descontar(cuentast,valor) 
+function recargo(cuentasf, porcentaje) 
 {
-    for (let i = 0; i < cuentast.length; i++) 
+    for (let i = 0; i < cuentasf.length; i++) 
     {
-        cuentast[i].importe=cuentast[i].importe-valor;
-        
-    }    
-    return(cuentast)
-}
+        if (cuentasf[i].plazofijo[1]>500000) 
+        {
 
-let valor=prompt("Monto a descontar a todes:");
-console.log(descontar(cuentas,valor));
+        }
+    }
+        
+}
