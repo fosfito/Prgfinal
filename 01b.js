@@ -21,27 +21,8 @@ const cuenta3 = {
     plazofijo: [{estado:"inactivo",importe:100,fechaCreacion:"2023-01-01",plazo:30}]
 }
 
-const cuenta4 = {
-    tipo: "corriente", //"ahorro"
-    importe: 200,
-    tipomodena: "Peso",
-    plazofijo: [{estado:"inactivo",importe:100,fechaCreacion:"2019-01-01",plazo:32}]
-}
-const cuenta5 = {
-    tipo: "corriente", //"ahorro"
-    importe: 200,
-    tipomodena: "Peso",
-    plazofijo: [{estado:"inactivo",importe:100,fechaCreacion:"2020-01-01",plazo:30}]
-}
 
-const cuenta6 = {
-    tipo: "corriente", //"ahorro"
-    importe: 200,
-    tipomodena: "Peso",
-    plazofijo: [{estado:"inactivo",importe:500,fechaCreacion:"2025-01-01",plazo:30}]
-}
-
-const cuenta=[cuenta1, cuenta2, cuenta3, cuenta4, cuenta5, cuenta6];
+const cuenta=[cuenta1, cuenta2, cuenta3];
 // fin de datos
 
 
