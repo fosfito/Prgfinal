@@ -1,3 +1,4 @@
+// 2b) Realiza una función que ordene los pasajes por precio de mayor a menor.
 pasaje1={
         categoria: "primera",
         precio:200,
