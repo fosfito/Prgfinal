@@ -24,28 +24,6 @@ const aula1 = {
     }
 const clases=[aula1,aula2];
 
-//5.a) Realiza una función que dada un número de alumnos devuelva las aulas disponibles y el horario.
+//5.b) Realiza una función que dado un número de alumnos y un horario de inicio y fin, devuelva
+//     si se encuentran aulas disponibles para asignar según los requisitos.
 
-function disponibilidad(cant,aulas)
-{
-    const rta=[];
-    for (let i = 0; i < aulas.length; i++) 
-    {
-        if (aulas[i].capacidad>cant) 
-        {
-            for (let j = 0; j < aulas[i].horarios.length; j++) 
-            {
-             if(aulas[i].horarios[j].estado=="disponible")
-             {
-                rta.push(aulas[i].nombre, aulas[i].horarios[j]);
-                  
-             }
-                
-            }
-        }
-        
-    }
-    return rta
-}
-     
-console.log(disponibilidad(10,clases))

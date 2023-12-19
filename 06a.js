@@ -1,0 +1,51 @@
+const propiedad1 = {
+    tipo: "casa", // "departamento"
+    importe: 100000,
+    condicion: {
+    venta: true,
+    alquiler: false
+    },
+    estado: "disponible", // "vendido" "alquilado"
+    fechaAlquiler: "2020-01-01",
+    }
+    
+    const propiedad2 = {
+        tipo: "galpon", // "departamento"
+        importe: 200000,
+        condicion: {
+        venta: true,
+        alquiler: false
+        },
+        estado: "disponible", // "vendido" "alquilado"
+        fechaAlquiler: "2020-01-01",
+        }
+
+        const propiedad3 = {
+            tipo: "casa", // "departamento"
+            importe: 300000,
+            condicion: {
+            venta: true,
+            alquiler: false
+            },
+            estado: "disponible", // "vendido" "alquilado"
+            fechaAlquiler: "2020-01-01",
+            }
+        
+const propiedades=[propiedad1,propiedad2,propiedad3];
+
+//6a) Realiza una función que liste todas las propiedades tipo casa (devuelve la lista).
+
+function listarcasas(casas)
+{
+    const rta=[];
+    for (let i = 0; i < casas.length; i++) 
+    {
+        if (casas[i].tipo=="casa")
+        {
+            rta.push(casas[i])    
+        }
+        
+    }
+    return(rta)
+}
+console.log(listarcasas(propiedades));
