@@ -33,7 +33,7 @@ const propiedad1 = {
         
 const propiedades=[propiedad1,propiedad2,propiedad3];
 
-//6fechas) mostrar las casas del mes de julio (07)
+//6fechas) mostrar la fecha desarmada
 
 function valoralquilado(casas) 
 {
