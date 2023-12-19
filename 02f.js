@@ -6,7 +6,7 @@ const pasaje1={
         estado:"disponible",
         }
 const pasaje2={
-         categoria: "primera",
+         categoria: "segunda",
          precio:300,
          descuento:50,
          estado:"disponible",
@@ -25,7 +25,7 @@ function buscar(pasajes,category)
 const rta=[];
 for (let i = 0; i < pasajesf.length; i++) 
 {
-        if ((pasajes[i].estado==="disponible")&&(pasajes[i].estado===category))
+        if ((pasajes[i].estado=="disponible")&&(pasajes[i].categoria==category))
         {
                 console.log("PASO");
                 rta.push(pasajes[i]);        
